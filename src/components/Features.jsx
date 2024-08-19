@@ -13,7 +13,7 @@ import elab from "../images/elabs.png"
 const Features = () => {
   return (
     <div>
-      <div className="flex justify-center w-full flex-col gap-8 p-6 py-12">
+      <div className="flex container mx-auto justify-center w-full flex-col gap-8 p-6 py-12">
         <div className="flex flex-col gap-2">
           <p className="text-center text-sm">Features</p>
           <h3 className="w-full text-center text-3xl font-bold text-[#444240] ">

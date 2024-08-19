@@ -22,7 +22,7 @@ const Usecase = () => {
   ]
 
   return (
-    <div className='mt-16 pb-24'>
+    <div className='mt-16 container mx-auto pb-24'>
       <div className='text-center flex flex-col gap-2 text-[#444240]'>
         <p className='text-sm font-light'>Use Cases</p>
         <h3 className='text-3xl font-bold px-4'>

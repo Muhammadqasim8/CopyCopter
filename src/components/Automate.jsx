@@ -19,7 +19,8 @@ import link7 from "../images/link7.png"
 
 const Automate = () => {
   return (
-    <div className="flex lg:flex-row flex-col pt-6">
+    
+    <div className="flex container mx-auto lg:flex-row flex-col mt-20 pt-6">
       <div className="flex px-6 flex-col gap-6 lg:w-1/2">
         <h1 className="text-[#444240] text-center md:text-start font-bold sm:text-5xl text-4xl">
           Automate your <span className="font-normal">Faceless video</span> Channel
