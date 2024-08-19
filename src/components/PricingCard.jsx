@@ -1,9 +1,8 @@
 import React from 'react';
 import tk from "../images/tk.png";
 import cros from "../images/cross.png";
-import ar from "../images/arow.png"
 
-const PricingCard = ({ title, subtitle, price, duration, yearlyPrice, features, firstFeatureImage, firstFeatureText, isPro }) => {
+const PricingCard = ({ title, subtitle, price, duration, yearlyPrice, features, firstFeatureImage, firstFeatureText, isPro, isYearly }) => {
   const borderColor = isPro ? 'border-blue-500 border-2' : 'border-gray-200';
 
   return (
@@ -22,7 +21,7 @@ const PricingCard = ({ title, subtitle, price, duration, yearlyPrice, features, 
           <span>{price}</span>
           <span className="text-sm font-light">{duration}</span>
         </div>
-        <div className="h-4 text-xs text-gray-500">{yearlyPrice}</div>
+        {isYearly && <div className="h-4 text-xs text-gray-500">{yearlyPrice}</div>}
       </div>
       <div className='flex flex-grow flex-col justify-between'>
         <div className='flex flex-col gap-2 pb-6'>
@@ -45,7 +44,11 @@ const PricingCard = ({ title, subtitle, price, duration, yearlyPrice, features, 
         <div className='flex justify-center w-full'>
           <button className="inline-flex group text-white relative items-center justify-center whitespace-nowrap rounded-md text-sm font-normal bg-blue-800 hover:bg-blue-900 h-10 px-4 py-2 w-9/12">
             <span>Subscribe</span>
-            <span class="absolute right-2 translate-x-full opacity-0 transition-all duration-150  group-hover:translate-x-0 group-hover:opacity-100"><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 256 256" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M184.49,136.49l-80,80a12,12,0,0,1-17-17L159,128,87.51,56.49a12,12,0,1,1,17-17l80,80A12,12,0,0,1,184.49,136.49Z"></path></svg></span>
+            <span className="absolute right-2 translate-x-full opacity-0 transition-all duration-150 group-hover:translate-x-0 group-hover:opacity-100">
+              <svg stroke="currentColor" fill="currentColor" strokeWidth="0" viewBox="0 0 256 256" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+                <path d="M184.49,136.49l-80,80a12,12,0,0,1-17-17L159,128,87.51,56.49a12,12,0,1,1,17-17l80,80A12,12,0,0,1,184.49,136.49Z"></path>
+              </svg>
+            </span>
           </button>
         </div>
       </div>

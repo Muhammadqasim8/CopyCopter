@@ -111,7 +111,7 @@ const Step = () => {
         </div>
       </div>
       <div className=" relative  z-10 flex flex-col  items-center gap-0 text-[#444240] lg:gap-8  lg:flex-row">
-        <div className="flex w-full  flex-1 flex-col gap-2 py-5 text-left sm:mx-auto lg:max-w-max">
+        <div className="flex  w-full  flex-1 flex-col gap-2 py-5 text-left sm:mx-auto lg:max-w-max">
           <div className="mt-3 flex ">
             <div className='class="flex rounded-md border border-blue-500 bg-blue-50 px-[6px] py-[0.5px] text-xs text-blue-500"'>
               Step 3

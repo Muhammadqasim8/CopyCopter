@@ -14,7 +14,7 @@ import link4 from "../images/link4.png"
 import link5 from "../images/link5.png"
 import link6 from "../images/link6.png"
 import link7 from "../images/link7.png"
-// import link10 from "../images/link10.png"
+import link10 from "../images/link10.png"
 
 
 const Automate = () => {
@@ -80,7 +80,7 @@ const Automate = () => {
 
         </div>
         <div className="flex flex-col items-center  sm:flex-row pb-6">
-          {/* <img src={link10} alt="" /> */}
+          <img src={link10} alt="" />
         </div>
       </div>
       <div className="flex-1 ">

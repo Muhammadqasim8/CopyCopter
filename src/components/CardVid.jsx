@@ -12,7 +12,7 @@ const CardVid = ({ videoSrc, description }) => {
           src={videoSrc}
         ></video>
       </div>
-      <p className='text-sm font-light text-[#444240]'>{description}</p>
+      <p className='text-sm text-center font-light text-[#444240]'>{description}</p>
       
     </div>
   )
