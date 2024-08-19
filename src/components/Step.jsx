@@ -60,23 +60,23 @@ const Step = () => {
         <div className=" flex-center mt-5 h-full min-h-[225px]   w-full max-w-md flex-1 pt-[112px] lg:mt-0 lg:w-3/12">
           <div className=" group relative h-full w-full  ">
             <img
-              className="absolute -left-8 -top-24 z-0 w-full rounded-md  brightness-90 transition-all  duration-300 group-hover:brightness-90 md:brightness-100"
+              className="absolute -left-5 sm:-left-8 -top-24 z-0 w-full rounded-md  brightness-90 transition-all  duration-300 group-hover:brightness-90 md:brightness-100"
               src={bg1}
               alt=""
             />
             <img
-              className="h absolute -top-2 left-6 z-10 w-full rounded-md border brightness-90 drop-shadow-xl transition-all duration-300 group-hover:brightness-90  md:brightness-100"
+              className="h absolute -top-2 sm:left-6 z-10 w-full rounded-md border brightness-90 drop-shadow-xl transition-all duration-300 group-hover:brightness-90  md:brightness-100"
               src={bg2}
               alt=""
             />
             <img
-              className="absolute left-14 top-14 z-20 w-full  rounded-md border drop-shadow-xl transition-all duration-300 group-hover:scale-105"
+              className="absolute sm:left-14 top-8 sm:top-14 z-20 w-full  rounded-md border drop-shadow-xl transition-all duration-300 group-hover:scale-105"
               src={bg3}
               alt=""
             />
           </div>
         </div>
-        <div className="flex lg:w-full  flex-1 flex-col  gap-2 py-5 text-left sm:mx-auto lg:max-w-max">
+        <div className="flex lg:w-full  flex-1 flex-col mt-10 lg:mt-0 gap-2 py-5 text-left sm:mx-auto lg:max-w-max">
           <div className="mt-3 flex ">
             <div className="flex rounded-md border border-blue-500 bg-blue-50 px-[6px] py-[0.5px] text-xs text-blue-500">
               Step 2
