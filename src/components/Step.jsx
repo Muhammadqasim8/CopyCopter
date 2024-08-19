@@ -1,10 +1,10 @@
 import React from "react";
 import tick from "../images/tick.png";
-import step1 from "../images/step1.png";
+import step1 from "../images/step1.jpg";
 import bg1 from "../images/bg1.png";
 import bg2 from "../images/bg2.png";
-import bg3 from "../images/bg3.png";
-import bg4 from "../images/bg4.png";
+import bg3 from "../images/bg3.jpg";
+import bg4 from "../images/bg4.jpg";
 import bg5 from "../images/bg5.png";
 import Button from "./Button";
 
@@ -53,7 +53,7 @@ const Step = () => {
           </div>
         </div>
         <div className=" flex-center mt-5 h-full min-h-[225px]  w-full max-w-md flex-1 p-0 lg:mt-0 lg:w-3/12">
-          <img className="pt-3" src={step1} alt="" />
+          <img className="pt-11" src={step1} alt="" />
         </div>
       </div>
       <div className=" relative  z-10 flex flex-col  items-center gap-0 text-[#444240] lg:gap-8  lg:flex-row">
@@ -149,7 +149,7 @@ const Step = () => {
         <div className=" flex-center mt-5 h-full min-h-[225px]  w-full max-w-md flex-1 p-0 lg:mt-0 lg:w-3/12">
             <div className="group relative overflow-hidden rounded-md">
               <img
-                className=" max-w-[280px] max-h-[160px] absolute bottom-10 right-[2.6rem] z-10 w-[280px] rounded-sm  transition-all  duration-300 group-hover:w-[280px] group-hover:drop-shadow-xl md:w-[120px]"
+                className=" max-w-[280px] max-h-[160px] absolute bottom-[3.5rem] right-[3.6rem] z-10 w-[280px] rounded-sm  transition-all  duration-300 group-hover:w-[280px] group-hover:drop-shadow-xl md:w-[120px]"
                 src={bg4}
                 alt=""
               />

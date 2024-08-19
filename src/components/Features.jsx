@@ -8,6 +8,7 @@ import cdimg3 from "../images/cdimg3.jpg"
 import cdimg4 from "../images/cdimg4.jpg"
 import cdimg5 from "../images/cdimg5.jpg"
 import cdvid from "../images/cdvid.mp4"
+import elab from "../images/elabs.png"
 
 const Features = () => {
   return (
@@ -19,8 +20,8 @@ const Features = () => {
             Simple, yet crazy powerful.
           </h3>
         </div>
-        <div className=" grid w-full max-w-6xl grid-cols-2 grid-rows-2 gap-4 md:grid-cols-4">
-          <div className="false  group relative h-72 rounded-md border bg-white/90 p-4 text-[#444240] backdrop-blur-md transition-all duration-300 hover:border-blue-600">
+        <div className=" grid px-2 sm:px-4 grid-cols-2 grid-rows-2 gap-4 md:grid-cols-4">
+          <div className="false  group relative h-72 rounded-md border bg-white/90 p-1 sm:p-4 text-[#444240] backdrop-blur-md transition-all duration-300 hover:border-blue-600">
             <div className=" flex h-full flex-col justify-between  ">
               <div className="relative overflow-hidden">
                 <div className="absolute bottom-0 left-0 right-0 top-0 z-50 bg-gradient-to-b from-transparent to-white"></div>
@@ -41,7 +42,7 @@ const Features = () => {
               </div>
             </div>
           </div>
-          <div className="false group relative h-72 rounded-md border bg-white/90 p-4 text-[#444240] backdrop-blur-md transition-all duration-300 hover:border-blue-600">
+          <div className="false group relative h-72 rounded-md border bg-white/90 p-1 sm:p-4 text-[#444240] backdrop-blur-md transition-all duration-300 hover:border-blue-600">
             <div className=" flex h-full flex-col justify-between  ">
               <div className="relative overflow-hidden">
                 <div className="absolute bottom-0 left-0 right-0 top-0 z-50 bg-gradient-to-b from-transparent to-white"></div>
@@ -62,7 +63,7 @@ const Features = () => {
               </div>
             </div>
           </div>
-          <div className="col-span-2 shadow-neumorphic group relative h-72 rounded-md border bg-white/90 p-4 text-[#444240] backdrop-blur-md transition-all duration-300 hover:border-blue-600">
+          <div className="col-span-2 shadow-neumorphic group relative h-72 rounded-md border bg-white/90 p-1 sm:p-4 text-[#444240] backdrop-blur-md transition-all duration-300 hover:border-blue-600">
             <div className=" flex h-full flex-col justify-between  ">
               <div className="relative overflow-hidden">
                 <div className="absolute bottom-0 left-0 right-0 top-0 z-50 bg-gradient-to-b from-transparent to-white"></div>
@@ -84,7 +85,7 @@ const Features = () => {
               </div>
             </div>
           </div>
-          <div className="col-span-2 shadow-neumorphic group relative h-72 rounded-md border bg-white/90 p-4 text-[#444240] backdrop-blur-md transition-all duration-300 hover:border-blue-600">
+          <div className="col-span-2 shadow-neumorphic group relative h-72 rounded-md border bg-white/90 p-1 sm:p-4 text-[#444240] backdrop-blur-md transition-all duration-300 hover:border-blue-600">
           <div className=" flex h-full flex-col justify-between  ">
             <div className="relative overflow-hidden">
                 <div className="flex justify-center relative">
@@ -111,7 +112,7 @@ const Features = () => {
           </div>
 
           </div>
-          <div className="false  group relative h-72 rounded-md border bg-white/90 p-4 text-[#444240] backdrop-blur-md transition-all duration-300 hover:border-blue-600">
+          <div className="false  group relative h-72 rounded-md border bg-white/90 p-1 sm:p-4 text-[#444240] backdrop-blur-md transition-all duration-300 hover:border-blue-600">
           <div className=" flex h-full flex-col justify-between">
             <div className="relative overflow-hidden">
                 <div >
@@ -129,7 +130,7 @@ const Features = () => {
           </div>
 
           </div>
-          <div className="false shadow-neumorphic group relative h-72 rounded-md border bg-white/90 p-4 text-[#444240] backdrop-blur-md transition-all duration-300 hover:border-blue-600">
+          <div className="false shadow-neumorphic group relative h-72 rounded-md border bg-white/90 p-1 sm:p-4 text-[#444240] backdrop-blur-md transition-all duration-300 hover:border-blue-600">
           <div className=" flex h-full flex-col justify-between  ">
             <div className="relative overflow-hidden">
                 <div className="flex justify-center  flex-wrap items-center gap-2 transition-all duration-300 group-hover:gap-1">
@@ -174,6 +175,13 @@ const Features = () => {
 
           </div>
         </div>
+      </div>
+      <div className="flex justify-center flex-col gap-2">
+        <p className="text-center">Powered by Eleven Labs</p>
+        <a className="flex justify-center" href="#">
+          <img className="h-[23.44px] w-[200px]" src={elab} alt="" />
+        </a>
+
       </div>
     </div>
   );

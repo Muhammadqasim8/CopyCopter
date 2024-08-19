@@ -4,12 +4,13 @@ import Button from "./Button";
 
 const Header = () => {
   return (
-    <div>
-      <div className="  pt-8 container mx-auto  ">
+    <div className=" fixed  top-2 z-50 w-full px-2 md:top-8">
+    <div className=" flex justify-center w-full">
+      <div>
         <div className="  max-w-[560px] mx-auto h-12  rounded-full border bg-white/60 px-1 pl-4 shadow-[5px_5px_30px_rgba(190,190,190,0.15),-5px_-5px_30px_rgba(255,255,255,0.15)] backdrop-blur-md  ">
           <div className=" flex  ">
             <a className="flex items-center justify-start gap-2" href="">
-              <div className=" w-fit min-w-9 min-h-9">
+              <div className=" w-fit max-w-9 max-h-9">
                 <img src={logo} alt="Logo" />
               </div>
               <span className="font-[900px] font-[inter] text-xl  tracking-wider">
@@ -61,6 +62,7 @@ const Header = () => {
           </div>
         </div>
       </div>
+    </div>
     </div>
   );
 };
