@@ -108,6 +108,7 @@ const Pricing = () => {
     <div className='flex w-full container mx-auto flex-col items-center justify-center gap-8 px-4 py-20'>
       <div className='flex flex-col gap-2'>
         <p className='text-center text-sm'>Pricing</p>
+        
         <h3 className='w-full text-center text-3xl font-bold text-[#444240]'>Simple pricing. No hidden fees.</h3>
       </div>
       <div className='flex justify-center w-full flex-col gap-6 p-4'>
